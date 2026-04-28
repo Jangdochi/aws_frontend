@@ -32,7 +32,7 @@ jobs:
     - name: Build Project
       run: npm run build
       env:
-        REACT_APP_API_BASE_URL: ${{ secrets.EC2_FRONTEND_HOST }}
+        REACT_APP_API_BASE_URL: ${{ secrets.EC2_BACKEND_HOST }}
 
     # 4. AWS 인증 설정
     - name: Configure AWS credentials
