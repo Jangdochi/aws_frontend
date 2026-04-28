@@ -87,7 +87,7 @@ function App() {
       {uploadedFileName && (
         <section style={{ ...sectionStyle, width: '80%', maxWidth: '800px', margin: '40px auto' }}>
           <h3>🖼️ S3 File Preview (Proxy)</h3>
-          <p>백엔드 주소를 통해 가져온 이미지입니다: <code>{uploadedFileName}</code></p>
+          <p>백엔드 주소를 통해 가져온 이미지입니다!!!: <code>{uploadedFileName}</code></p>
           <div style={{ border: '1px solid #ddd', borderRadius: '8px', padding: '10px', backgroundColor: '#f9f9f9' }}>
             <img 
               src={`${albAddress}/api/preview/${uploadedFileName}`} 
